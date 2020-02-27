@@ -6,6 +6,14 @@ Our proposal consists in the design and development of open hardware data logger
 <img src="images/image_1.jpg" width="100%">
 <p><img src="images/rover-silver.png" width="43%"/><img src="images/image_1.jpg" width="57%"/></p>
 
+### Motivation
+We want to bring to society the passion for monitoring rivers and lakes. Also with the plus of learning about open electronic projects with possibility of reproduce, modify and customize data loggers. The Open technology that we bring is associated with open data repositories that will make the environmental information accessible to everyone!
+
+### Pathways
+* [Survey for scientists](https://drive.google.com/open?id=1LG6TfIyw4GZSVESFRLKz3ml2B999uxwez4n2eBbThyI)
+* [Slides introducting the data logger](https://drive.google.com/open?id=1zq_IMxR3ppLNEuhrN3IsdEPZg6zOZ_rIceaL0tdQykI)
+
+
 ## Value Proposition generic for Open Hardware
 ### The product
 An Open source data logger that people can find online, access, replicate, buy and delivers a set of funcionalities, use values with certain quality.
