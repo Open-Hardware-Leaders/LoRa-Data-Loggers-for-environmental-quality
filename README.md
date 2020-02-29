@@ -4,7 +4,7 @@ Usually recording environmental variables can be carried out by private data log
 Our proposal consists in the design and development of open hardware data loggers with LoRaWan technology for communication with devices for downloading data. The data loggers will be of two types: aquatic and terrestrial. Aquatics will measure relevant data for the determination of water quality such as turbidity, dissolved oxygen, conductivity and pH. The terrestrial, will measure bee activity variables in hive, biological indicators of environmental quality.
 
 <img src="Images/image_1.jpg" width="100%">
-<p><img src="images/rover-silver.png" width="43%"/><img src="images/image_1.jpg" width="57%"/></p>
+<p><img src="Images/image_1.jpg" width="43%"/><img src="Images/image_1.jpg" width="57%"/></p>
 
 ### Motivation
 We want to bring to society the passion for monitoring rivers and lakes. Also with the plus of learning about open electronic projects with possibility of reproduce, modify and customize data loggers. The Open technology that we bring is associated with open data repositories that will make the environmental information accessible to everyone!
