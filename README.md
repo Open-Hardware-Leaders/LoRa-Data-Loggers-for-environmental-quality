@@ -9,6 +9,36 @@ These data loggers are based mainly in the [Cave Pearl Proyect](https://thecavep
 ### Motivation
 We want to bring to society the passion for monitoring rivers and lakes. Also with the plus of learning about open electronic projects with possibility of reproduce, modify and customize data loggers. The Open technology that we bring is associated with open data repositories that will make the environmental information accessible to everyone!
 
+### The first steps
+
+To begin recording environmental variables is necessary to develop some abilities measuring these. To do that we are gonna start making a [Coqui conductivity sensor](https://publiclab.org/wiki/coqui) of [Public Lab](https://publiclab.org/) website.
+<img src="Images/Coqui.jpg" width="100%">
+
+
+### Specifications & Technical Attributes
+
+The specific attributes of the data logger you build will depend slightly on the type of sensors you buy for the system. The numbers shown below are for the full version of the data logger that contains exactly the parts that we suggest in our build documents and parts list. Below, you can see which parts could be changed for which spec upgrades.
+
+| Attribute                                    | Value [imperial]         | Value [SI]             |
+| ----------                                |:-----:                   | :-------------:        |
+| Weight                                    | [lbs]                    | 1 [kg]                 |
+| Footprint                                 |  [in]                    | 30x5 [cm]              |
+| Battery Capacity                          | 6800 [mAh]               | 6800 [mAh]             |
+| Battery Discharge Rate                    |  [A]                     |   [A]                  |
+| Nominal Current Draw                      |     [A]                  |     [A]                |
+| Operating time                            | 3 [months](continual use)|3[months](continual use)|
+| Approximate Max wireless communication    |     []                   | 3 [km]                 |
+| Communication (in this guide)             | Arduino IDE (windows, mac, GNU/linux) | |
+| Cost                                      | ~ $350                 |                        |
+
+### Features
+This data logger is designed to function similarly to the [Cave Pearl Proyect data logger](https://thecavepearlproject.org/category/diy-build-a-pro-mini-logger/) designs:
+ * __Rocker-Bogie:__ The Rocker-Bogie suspension system allows all 6 wheels to continually be in contact with the ground while climbing over obstacles
+ * __Differential Pivot:__ Allows weight to be mechanically offloaded from one side of the rover to the other while climbing
+ * __6-Wheel Ackerman Steering:__ Driving and steering/turning mechanism that governs where the wheels point and how fast each of them will move.
+
+###
+
 ### Pathways
 * [Survey for scientists](https://drive.google.com/open?id=1LG6TfIyw4GZSVESFRLKz3ml2B999uxwez4n2eBbThyI)
 * [Slides introducting the data logger](https://drive.google.com/open?id=1zq_IMxR3ppLNEuhrN3IsdEPZg6zOZ_rIceaL0tdQykI)
