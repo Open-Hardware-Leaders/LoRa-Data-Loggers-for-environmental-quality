@@ -39,7 +39,7 @@ This data logger is designed to function similarly to the [Cave Pearl Proyect da
 
 We chose a Arduino pro-mini to be the "brain" of this data logger for its versatility, accessibility, simplicity, and ability to add and upgrade your own modifications. Any method with which you can communicate with a arduino pro-mini (bluetooth, WiFi, LoRa, etc) can be added to the data logger to get the information from its. 
 
-![Data logger communication](images/ArduinoLoRa.png)
+<img src="Images/ArduinoLoRa.png" width="100%">
 
 In addition, here are the open communication ports and hardware on the Raspberry Pi:
  * 4 USB ports (3 if using Xbox controller)
