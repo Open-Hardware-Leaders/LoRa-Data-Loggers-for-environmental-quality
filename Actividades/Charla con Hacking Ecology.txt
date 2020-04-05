@@ -1,0 +1,35 @@
+Charla con Saulo
+
+Preguntar acerca de monocle (me olvidé)
+
+preguntarle acerca de sus coloboradores
+* Es de brasil pero está en Barcelona.
+* No tiene beca reducen los costos.
+* Asesoramiento tipo startup.
+* dificultad para encontrar gente disponible para el 
+open source
+* 
+* Se enfocan más en los
+* Empresas quieren producto, las universidades tienen ritmo más lento y hay más disponibilidad de desarrolladores.
+* Quieren desarrollar una cooperativa para financiar el proyecto.
+
+* Empezaron con cursos de desarrollo de sensores, para desarrollar sensores a precios que no sean abusivos.
+
+* Consideraron empresas porque ellas subencionan
+* Su modelo de negocio es que sus sensores sean probados y que sean fiables para pedir financiamiento a empresas como hobo y hanna.
+
+* Tienen probeedores de muy bajo costo y buena calidad
+* Podría compartirme info de sensores.
+* Están desarrollado sensores e. coli, etc.
+* Ground loop cada sensor hace interferencia en el otro, aislamiento galbánico.
+* Me dice que grafana sería lo último en pensar
+* Tiene un código de conductividad y temperatura. Y me lo puede compartir a código de arduino. Corrección de datos. 
+* Node-red, api javascript, emula en mi servidor y un IP. Es más sencillo que grafana. Pero no almacena. https://aprendiendoarduino.wordpress.com/2018/11/20/node-red/
+* Al principio del 2021 están en Brazil, Argentina y Uruguay.  
+* Conocen a Xose? es de un grupo de publiclab, es un fotografo muy bueno, es más bien activista. Está acá en Córdoba. 
+* Valentina trabaja en marketing.
+
+
+
+
+Estan desarrollando sus propios sensores
