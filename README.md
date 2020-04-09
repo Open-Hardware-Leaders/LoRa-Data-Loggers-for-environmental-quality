@@ -49,6 +49,8 @@ This project need people interested in contribute in different tasks. In order t
 
 Most of the above are skills that you can learn and pick up fairly quickly from watching videos and doing research on the internet, and throughout the project we try to give supplemental information on some of these as well.  See the build documents for more information.
 
+If you want to contribute please send me an email to: alejobonifacio@gmail.com
+
 ## Happy building!!
 If you have any questions or run into problems during your build, please search for answers and/or reach out on the [forum](https://create.arduino.cc/projecthub/alejobonifacio/ecosen-lora-data-loggers-for-environmental-quality-9dffba).
 
