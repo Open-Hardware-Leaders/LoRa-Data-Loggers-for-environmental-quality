@@ -19,15 +19,34 @@ To begin recording environmental variables is necessary to develop some abilitie
 
 The specific attributes of the data logger you build will depend slightly on the type of sensors you buy for the system. The numbers shown below are for the full version of the data logger that contains exactly the parts that we suggest in our build documents and parts list. Below, you can see which parts could be changed for which spec upgrades.
 
-| Attribute                                    | Value [imperial]         | Value [SI]             |
-| ----------                                |:-----:                   | :-------------:        |
-| Weight                                    | [lbs]                    | 1 [kg]                 |
-| Footprint                                 |  [in]                    | 30x5 [cm]              |
-| Battery Capacity                          | 6800 [mAh]               | 6800 [mAh]             |
-| Operating time                            | 3 [months](continual use)|3[months](continual use)|
-| Approximate Max wireless communication    |     []                   | 3 [km]                 |
-| Communication (in this guide)             | Arduino IDE (windows, mac, GNU/linux) | |
-| Cost                                      | ~ $350                 |                        |
+| Attribute                                   | Value [SI]             |
+| ----------                                  | :-------------:        |
+| Weight                                    | 1 [kg]                 |
+| Footprint                                 | 30x5 [cm]              |
+| Battery Capacity                          | 6800 [mAh]             |
+| Operating time                            |3[months](continual use)|
+| Approximate Max wireless communication    | 3 [km]                 |
+| Communication (in this guide)             | Arduino IDE (windows, mac, GNU/linux)  |
+| Cost                                      | ~ U$S350                 |  
+
+##### Table of compenents
+
+||Quantity|Value U$S|Link|
+|----------------|:-----------------:|------------------|--------------------|
+|arduino pro mini
+|Arduino mega||||
+|sensor de temperatura ds18b20||||
+|sensor de turbidez||||
+|sensor de pH||||
+|sensor de conductividad||||
+|sensor de oxígeno disuelto||||
+|real time clock||||
+|Cargador pilas 18650||||
+|portapilas||||
+|pilas reacrgables||||
+|módulo LoRa||||
+|Hermetic case||||
+|Insumos varios electrónicos (cables, borneras, estaño, etc.)||||
 
 ### Features
 This data logger is designed to function similarly to the [Cave Pearl Proyect data logger](https://thecavepearlproject.org/category/diy-build-a-pro-mini-logger/) designs:
