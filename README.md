@@ -33,20 +33,20 @@ The specific attributes of the data logger you build will depend slightly on the
 
 ||Quantity|Value U$S|Link|
 |----------------|:-----------------:|------------------|--------------------|
-|arduino pro mini
-|Arduino mega||||
-|sensor de temperatura ds18b20||||
-|sensor de turbidez||||
-|sensor de pH||||
-|sensor de conductividad||||
-|sensor de oxígeno disuelto||||
-|real time clock||||
-|Cargador pilas 18650||||
-|portapilas||||
-|pilas reacrgables||||
-|módulo LoRa||||
-|Hermetic case||||
-|Insumos varios electrónicos (cables, borneras, estaño, etc.)||||
+|arduino pro mini|1|3.881656805|[](https://articulo.mercadolibre.com.ar/MLA-643647762-arduino-pro-mini-33v-8mhz-robotica-atmel-atmega328-mona-_JM)|
+|Arduino mega|1|9.349112426|[](https://articulo.mercadolibre.com.ar/MLA-621290099-arduino-uno-r3-atmega16u-atmega328-atmel-robotica-todomicr-_JM?quantity=1#position=9&type=item&tracking_id=982584cd-6e84-467d-a826-ffea1fc20edd)|
+|temperature sensor ds18b20|1|4.130177515|[](https://articulo.mercadolibre.com.ar/MLA-818621568-sensor-digital-temperatura-ds18b20-cable-sumergible-3-metros-_JM)|
+|sensor de turbidez|1|15.66863905|[](https://articulo.mercadolibre.com.ar/MLA-668633063-modulo-sensor-de-turbidez-analogico-liquid-particles-_JM)|
+|pH sensor|1|29.5|[](https://www.dfrobot.com/product-1025.html)|
+|conductivity sensor|1|79.9|[](https://www.dfrobot.com/product-1797.html?search=conductivity&description=true)|
+|disolved oxygen sensor|1|169|[](https://www.dfrobot.com/product-1628.html)|
+|real time clock|1|2.970414201|[](https://articulo.mercadolibre.com.ar/MLA-617370292-reloj-tiempo-real-rtc-ds3231-eeprom-24c32-arduino-mona-_JM)|
+|18650 battery charger |1|2.911242604|[](https://articulo.mercadolibre.com.ar/MLA-678695062-cargador-universal-para-pilas-18650-14500-26650-ultrafire-_JM?variation=19019023778&quantity=1#reco_item_pos=1&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=7352aa27-a3d6-4223-9ae9-d8e44830d339)|
+|battery holder|1|1.124260355|[](https://articulo.mercadolibre.com.ar/MLA-812596321-portapila-2-pilas-bateria-porta-pilas-doble-18650-salida-cab-_JM?quantity=1#position=1&type=item&tracking_id=08eb7c3b-f94b-4834-a1d7-e88dc6b7ab6a)|
+|rechargable 18650 batteries|2|3.360946746|[](https://articulo.mercadolibre.com.ar/MLA-717530188-pila-bateria-18650-recargable-37v-6800mah-li-ion-linternas-_JM?quantity=1#position=1&type=item&tracking_id=cbb2490b-d433-4775-9784-98cee71379df)|
+|LoRa module|2|15|[](https://www.ebay.com/itm/REYAX-RYLR896-Lora-module-SX1276-UART-Interface-868MHz-915MHz-Antenna-AT-command/181562403752?hash=item2a45f66ba8:g:h0QAAOSw9~5ZVKTx)|
+|Hermetic case|2|8,272189349|[](https://articulo.mercadolibre.com.ar/MLA-823608945-frascos-vidrio-lunchera-hermetico-envase-recipiente-1000ml-_JM?quantity=1&variation=45946622024)|
+|Electronic stuff(jumper wires, terminal boards, soldering tin, etc.)||	10||
 
 ### Features
 This data logger is designed to function similarly to the [Cave Pearl Proyect data logger](https://thecavepearlproject.org/category/diy-build-a-pro-mini-logger/) designs:
