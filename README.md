@@ -9,10 +9,13 @@ These data loggers are based mainly in the [Cave Pearl Proyect](https://thecavep
 ### Motivation
 We want to bring to society the passion for monitoring rivers and lakes. Also with the plus of learning about open electronic projects with possibility of reproduce, modify and customize data loggers. The Open technology that we bring is associated with open data repositories that will make the environmental information accessible to everyone!
 
-### The first steps
-
+### The first steps, measuring
 To begin recording environmental variables is necessary to develop some abilities measuring these. To do that we are gonna start making a [Coqui conductivity sensor](https://publiclab.org/wiki/coqui) of [Public Lab](https://publiclab.org/) website.
 <img src="Images/Coqui.jpg" width="100%">
+With this task, we are learning to measure environmental variables with an open source hardware
+
+### Second step, logging
+To begin logging we are going to made an Arduino Uno based data logger. This data logger is based in one of the [Cave Pearl Projects] (https://thecavepearlproject.org/2015/12/22/arduino-uno-based-data-logger-with-no-soldering/). After complete the datalogger we are going to add a DHT11 temperature and relative humidity module to pin 8 of Arduino Uno. The code.ino is downloadable in the following [link](https://drive.google.com/open?id=17P1dIhY--dl7_n6sXm4gY56F4k5InGaj).
 
 
 ### Specifications & Technical Attributes
@@ -33,7 +36,7 @@ The specific attributes of the data logger you build will depend slightly on the
 
 ||Quantity|Value U$S|Link|
 |----------------|:-----------------:|------------------|--------------------|
-|arduino pro mini|1|3.881656805|[Link](https://articulo.mercadolibre.com.ar/MLA-643647762-arduino-pro-mini-33v-8mhz-robotica-atmel-atmega328-mona-_JM)|
+|arduino pro mini|1|3.881656805|[->](https://articulo.mercadolibre.com.ar/MLA-643647762-arduino-pro-mini-33v-8mhz-robotica-atmel-atmega328-mona-_JM)|
 |Arduino mega|1|9.349112426|[](https://articulo.mercadolibre.com.ar/MLA-621290099-arduino-uno-r3-atmega16u-atmega328-atmel-robotica-todomicr-_JM?quantity=1#position=9&type=item&tracking_id=982584cd-6e84-467d-a826-ffea1fc20edd)|
 |temperature sensor ds18b20|1|4.130177515|[](https://articulo.mercadolibre.com.ar/MLA-818621568-sensor-digital-temperatura-ds18b20-cable-sumergible-3-metros-_JM)|
 |sensor de turbidez|1|15.66863905|[](https://articulo.mercadolibre.com.ar/MLA-668633063-modulo-sensor-de-turbidez-analogico-liquid-particles-_JM)|
