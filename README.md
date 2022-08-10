@@ -12,16 +12,21 @@ Este proyecto se encuentra en gestación por lo que vamos a ver es su evolución
 Queremos traer a la sociedad la pasión por el monitoreo de ríos, lagunas, lagos y todo tipo de humedales. Además, reconocemos la importacia de aprender acerca de aprender acerca de proyectos de electronica abierta con la posibilidad de reproducir, modificar y personalizar los RD. La tecnología abierta que queremos compartir es asociada a repositorios que harán de la información accesible a cualquier persona. Si en algún momento crees que alguna información no es lo suficiente pública por favor nos lo haces saber.
 
 ## Primeros pasos, Registremos algo..
+Vamos a usar una placa arduino para registrar unos valores del ambiente. Con esto vamos a lograr ver que estos microcontroladores son capaces de sensar variables ambientales y eso no interesa mucho.
+
 ### Materiales
+* Arduino uno
+* DHT 11
+* Cables dupont
+* Protoboard
+* Computadora de escritorio o laptop
+* Arduino IDE
+* Cable USB-b a USB-c
 
+### Procedimiento
+* Instalamos Arduino IDE en nuestra pc -> [link](https://www.arduino.cc/en/software)
+* Armamos el circuito y probamos el código que surge del proyecto del repositorio de arduino sobre el uso del DHT11 -> [link](https://create.arduino.cc/projecthub/techno_z/dht11-temperature-humidity-sensor-98b03b). El proyecto está en inglés, pero se puede traducir con el traductor de google en el navegador Chrome o con un complemento en mozilla Firefox. De todos modos ¡CUIDADO! el código traducido no se puede compiar y pegar en el arduino IDE ya que no va a funcionar. 
 
-
-
-## The first steps, measuring
-To begin recording environmental variables is necessary to develop some abilities measuring these. To do that we are gonna start making a [Coqui conductivity sensor](https://publiclab.org/wiki/coqui) of [Public Lab](https://publiclab.org/) website.
-<img src="Images/Coqui.jpg" width="100%">
-With this task, we are learning to measure environmental variables with an open source hardware
-]
 
 ### Second step, logging
 To begin logging we are going to made an Arduino Uno based data logger. This data logger is based in one of the [Cave Pearl Projects] (https://thecavepearlproject.org/2015/12/22/arduino-uno-based-data-logger-with-no-soldering/). After complete the datalogger we are going to add a DHT11 temperature and relative humidity module to pin 8 of Arduino Uno. The code.ino is downloadable in the following [link](https://drive.google.com/open?id=17P1dIhY--dl7_n6sXm4gY56F4k5InGaj)or in the Codes folder.
