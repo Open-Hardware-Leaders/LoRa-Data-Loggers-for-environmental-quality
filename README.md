@@ -11,8 +11,13 @@ Este proyecto se encuentra en gestación por lo que vamos a ver es su evolución
 ## Motivación
 Queremos traer a la sociedad la pasión por el monitoreo de ríos, lagunas, lagos y todo tipo de humedales. Además, reconocemos la importacia de aprender acerca de aprender acerca de proyectos de electronica abierta con la posibilidad de reproducir, modificar y personalizar los RD. La tecnología abierta que queremos compartir es asociada a repositorios que harán de la información accesible a cualquier persona. Si en algún momento crees que alguna información no es lo suficiente pública por favor nos lo haces saber.
 
-## Primeros pasos
-[// ### The first steps, measuring
+## Primeros pasos, Registremos algo..
+### Materiales
+
+
+
+
+## The first steps, measuring
 To begin recording environmental variables is necessary to develop some abilities measuring these. To do that we are gonna start making a [Coqui conductivity sensor](https://publiclab.org/wiki/coqui) of [Public Lab](https://publiclab.org/) website.
 <img src="Images/Coqui.jpg" width="100%">
 With this task, we are learning to measure environmental variables with an open source hardware
@@ -85,8 +90,6 @@ If you have any questions or run into problems during your build, please search 
 This README document is based in the NASA Open Source Rover [project](https://github.com/nasa-jpl/open-source-rover) 
 
 
-### References
-<div class="csl-entry">Pesce, S. F., &#38; Wunderlin, D. A. (2000). Use of water quality indices to verify the impact of Córdoba city. <i>Water Research</i>, <i>34</i>(11), 2915–2926. https://doi.org/10.1016/S0043-1354(00)00036-1</div>
 
 
 
