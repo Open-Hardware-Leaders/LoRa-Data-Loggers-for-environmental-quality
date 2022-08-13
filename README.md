@@ -9,19 +9,20 @@ La base técnica para la construcción de estos registradores es la presente en 
 Este proyecto se encuentra en gestación por lo que vamos a ver es su evolución. Aún no hemos logrado un perfecto funcionamiento de lo propuesto ni con todo tipo de sensores ni con la conectividad inalámbrica, así que cualquier persona que se quiera sumar es bienvenida. Puedes comuncarte con alejo.bonifacio@unc.edu.ar
 
 ## Motivación
-Queremos traer a la sociedad la pasión por el monitoreo de ríos, lagunas, lagos y todo tipo de humedales. Además, reconocemos la importacia de aprender acerca de aprender acerca de proyectos de electronica abierta con la posibilidad de reproducir, modificar y personalizar los RD. La tecnología abierta que queremos compartir es asociada a repositorios que harán de la información accesible a cualquier persona. Si en algún momento crees que alguna información no es lo suficiente pública por favor nos lo haces saber.
+Queremos traer a la sociedad la pasión por el monitoreo de ríos, lagunas, lagos y todo tipo de humedales. Además, reconocemos la importacia de aprender acerca de proyectos de electronica abierta con la posibilidad de reproducir, modificar y personalizar los RD. La tecnología abierta que queremos compartir es asociada a repositorios que harán de la información accesible a cualquier persona. Si en algún momento crees que alguna información no es lo suficiente pública por favor nos lo haces saber.
 
 ## Primeros pasos, Registremos algo..
 Vamos a usar una placa arduino para registrar unos valores del ambiente. Con esto vamos a lograr ver que estos microcontroladores son capaces de sensar variables ambientales y eso no interesa mucho.
 
-### Materiales
-* Arduino uno
-* DHT 11
-* Cables dupont
-* Protoboard
+### Materiales (con links a proveedores en Argentina)
+* [Arduino uno](https://articulo.mercadolibre.com.ar/MLA-719198757-arduino-uno-r3-con-cable-usb-y-chip-desmontable-atmel-_JM#position=9&search_layout=grid&type=item&tracking_id=e573198c-48a2-4803-9afd-36106603708a)
+* [DHT 11](https://articulo.mercadolibre.com.ar/MLA-752254138-modulo-sensor-humedad-relativa-y-temperatura-dht11-arduino-_JM#position=2&search_layout=stack&type=item&tracking_id=45f07ec5-ad22-412b-94d2-94497e139acf)
+* [Cables dupont](https://articulo.mercadolibre.com.ar/MLA-621254141-pack-40-cables-macho-macho-10cm-dupont-arduino-y-protoboard-_JM#position=3&search_layout=stack&type=item&tracking_id=f217ef53-0080-491f-b6bd-d42105134adf)
+* [Protoboard](https://articulo.mercadolibre.com.ar/MLA-630797518-protoboard-830-puntos-placa-experimental-arduino-electronica-_JM#position=1&search_layout=grid&type=item&tracking_id=1832eed4-aa24-40df-b3ca-a32b95b5c628)
+* Cable USB-b a USB-c (viene incluido con el arduino UNO)
 * Computadora de escritorio o laptop
-* Arduino IDE
-* Cable USB-b a USB-c
+* [Arduino IDE](https://www.arduino.cc/en/software)
+
 
 ### Procedimiento
 * Instalamos Arduino IDE en nuestra pc -> [link](https://www.arduino.cc/en/software)
