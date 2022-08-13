@@ -36,7 +36,7 @@ Para empezar a registrar vamos a necesitar un nuevo elemento, el módulo SD. Con
 * [Memoria micro SD](https://articulo.mercadolibre.com.ar/MLA-927190694-memoria-micro-sd-2gb-nuevas-sin-blister-originales-100-_JM#position=4&search_layout=stack&type=item&tracking_id=d6d6c54d-7f15-4b18-b0df-8bed206f4609)
 
 ## Procedimiento
-Armamos el circuito según la imagen que se ve en el siguiente [link]() para el módulo micro SD. En la imagen no muestra un cable entrando directamente en cada uno de los orificios de la placa arduino, sino que indica que cada pin del módulo va a el nombre de orificios particulares del arduino. Esto es común en diagramas de conexión y está bueno que nos acostumbremos a esto. Luego en la misma página que estamos viendo vamos a ver una última sección antes de los comentarios que se llama **ESCRITURA DE UN FICHERO (DATALOGGER)**. Copiamos el código y lo pegamos en un nuevo archivo de Arduino.IDE y lo ejecutamos.
+Armamos el circuito según la imagen que se ve en el siguiente [link](https://www.luisllamas.es/tarjeta-micro-sd-arduino/) para el módulo micro SD. En la imagen no muestra un cable entrando directamente en cada uno de los orificios de la placa arduino, sino que indica que cada pin del módulo va a el nombre de orificios particulares del arduino. Esto es común en diagramas de conexión y está bueno que nos acostumbremos a esto. Luego en la misma página que estamos viendo vamos a ver una última sección antes de los comentarios que se llama **ESCRITURA DE UN FICHERO (DATALOGGER)**. Copiamos el código y lo pegamos en un nuevo archivo de Arduino.IDE y lo ejecutamos.
 
 
 
