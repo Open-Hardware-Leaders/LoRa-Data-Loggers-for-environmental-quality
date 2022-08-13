@@ -11,7 +11,7 @@ Este proyecto se encuentra en gestación por lo que vamos a ver es su evolución
 ## Motivación
 Queremos traer a la sociedad la pasión por el monitoreo de ríos, lagunas, lagos y todo tipo de humedales. Además, reconocemos la importacia de aprender acerca de proyectos de electronica abierta con la posibilidad de reproducir, modificar y personalizar los RD. La tecnología abierta que queremos compartir es asociada a repositorios que harán de la información accesible a cualquier persona. Si en algún momento crees que alguna información no es lo suficiente pública por favor nos lo haces saber.
 
-## Primeros pasos, Registremos algo..
+## Primeros pasos, Midamos algo..
 Vamos a usar una placa arduino para registrar unos valores del ambiente. Con esto vamos a lograr ver que estos microcontroladores son capaces de sensar variables ambientales y eso no interesa mucho.
 
 ### Materiales (con links a proveedores en Argentina)
@@ -21,12 +21,16 @@ Vamos a usar una placa arduino para registrar unos valores del ambiente. Con est
 * [Protoboard](https://articulo.mercadolibre.com.ar/MLA-630797518-protoboard-830-puntos-placa-experimental-arduino-electronica-_JM#position=1&search_layout=grid&type=item&tracking_id=1832eed4-aa24-40df-b3ca-a32b95b5c628)
 * Cable USB-b a USB-c (viene incluido con el arduino UNO)
 * Computadora de escritorio o laptop
-* [Arduino IDE](https://www.arduino.cc/en/software)
 
 
 ### Procedimiento
 * Instalamos Arduino IDE en nuestra pc -> [link](https://www.arduino.cc/en/software)
-* Armamos el circuito y probamos el código que surge del proyecto del repositorio de arduino sobre el uso del DHT11 -> [link](https://create.arduino.cc/projecthub/techno_z/dht11-temperature-humidity-sensor-98b03b). El proyecto está en inglés, pero se puede traducir con el traductor de google en el navegador Chrome o con un complemento en mozilla Firefox. De todos modos ¡CUIDADO! el código traducido no se puede compiar y pegar en el arduino IDE ya que no va a funcionar. 
+* Armamos el circuito y probamos el código que surge del proyecto del repositorio de arduino sobre el uso del DHT11 -> [link](https://create.arduino.cc/projecthub/techno_z/dht11-temperature-humidity-sensor-98b03b). El proyecto está en inglés, pero se puede traducir con el traductor de google en el navegador Chrome o con un complemento en mozilla Firefox. De todos modos ¡CUIDADO! el código traducido no se puede copiar y pegar en el arduino IDE ya que no va a funcionar. 
+
+## Segundo paso, Registremos...
+Para empezar a registrar vamos a necesitar un nuevo elemento, el módulo SD. Con este módulo empezaremos a ganar independencia, ya que podremos guardar la información generada por el sensor en una memoria extraíble. Así podremos retirar la información de la placa para leerla en otro dispositivo.
+
+### Materiales, a muchos ya los tenemos :sunglasses:
 
 
 ### Second step, logging
