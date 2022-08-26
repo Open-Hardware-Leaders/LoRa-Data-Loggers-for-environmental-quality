@@ -35,9 +35,28 @@ Para empezar a registrar vamos a necesitar un nuevo elemento, el módulo SD. Con
 * [Módulo micro SD](https://articulo.mercadolibre.com.ar/MLA-905429694-modulo-lector-memorias-micro-sd-arduino-5v-hobbytronica-_JM#position=3&search_layout=grid&type=item&tracking_id=78f54e44-642d-4fc8-b9fd-e26b2e29e181)
 * [Memoria micro SD](https://articulo.mercadolibre.com.ar/MLA-927190694-memoria-micro-sd-2gb-nuevas-sin-blister-originales-100-_JM#position=4&search_layout=stack&type=item&tracking_id=d6d6c54d-7f15-4b18-b0df-8bed206f4609)
 
-## Procedimiento
+### Procedimiento
 Armamos el circuito según la imagen que se ve en el siguiente [link](https://www.luisllamas.es/tarjeta-micro-sd-arduino/) para el módulo micro SD. En la imagen no muestra un cable entrando directamente en cada uno de los orificios de la placa arduino, sino que indica que cada pin del módulo va a el nombre de orificios particulares del arduino. Esto es común en diagramas de conexión y está bueno que nos acostumbremos a esto. Luego en la misma página que estamos viendo vamos a ver una última sección antes de los comentarios que se llama **ESCRITURA DE UN FICHERO (DATALOGGER)**. Copiamos el código y lo pegamos en un nuevo archivo de Arduino.IDE y lo ejecutamos.
 
+## Tercer paso, agregando información temporal :clock930:
+Ahora necesitamos tener una marca temporal para cada una de las mediciones que hagamos. Si bien cuando medimos conectados a una computadora tenemos esa información, la idea es tener registradores de datos portátiles.
+
+### Materiales
+* Los mismos de antes
+* [módulo RTC ds3231](https://articulo.mercadolibre.com.ar/MLA-916734561-modulo-rtc-ds3231-alta-precision-eeprom-24c32-arduino-cpila-_JM?quantity=4)
+* [pila cr2032](https://www.mercadolibre.com.ar/pila-panasonic-cr2032-boton-pack-de-5-unidades/p/MLA16144305?pdp_filters=category:MLA6384#searchVariation=MLA16144305&position=1&search_layout=stack&type=product&tracking_id=7f628464-07a2-4d25-b8d9-152a70706ea2)
+
+### Procedimiento
+Lo que tenemos que hacer ahora es poner en hora el RTC (Real Time Clock, que significa reloj en tiempo real). Este módulo es el que gracias a la pila cr2032 nos va a indicar la hora del registrador de datos aún cuando nuestra placa microcontroladora se quede sin energía. 
+
+Conexionado:
+
+    Pin SCL: al pin A5 de Arduino UNO/nano
+    Pin SDA: AL pin A4 de Arduino UNO/nano
+    Pin Vcc: A 5V de Arduino
+    Pin GND: A masa de Arduino
+    
+Para poner en hora el módulo vamos a usar el código que se encuentra en el siguiente [sitio web](https://electronperdido.com/shop/modulos-expansion/relojes/rtc-ds3231/). En caso que este código no nos funcione vamos a utilizar el código de este otro [sitio web](https://soloelectronicos.com/2022/08/08/)
 
 
 
