@@ -58,13 +58,21 @@ Conexionado:
     
 Para poner en hora el módulo vamos a usar el código que se encuentra en el siguiente [sitio web](https://electronperdido.com/shop/modulos-expansion/relojes/rtc-ds3231/). En caso que este código no nos funcione vamos a utilizar el código de este otro [sitio web](https://soloelectronicos.com/2022/08/08/)
 
+## Cuarto paso, uniendo todo...
+Ahora lo que vamos a hacer es unir todos los pasos que acabamos de hacer para armar un registrador de datos. El sensor DHT 11 nos va a medir la humedad y la temperatura. Con el módulo micro SD registraremos la información en una memoria SD. Y con el módulo RTC tendremos la marca temporal de las mediciones independientemente de que la placa arduino se quede sin alimentación. 
+
+### Materiales
+* Todos los que ya tenemos
+
+### Procedimiento
+Vamos a hacer las mismas conexiones que hicimos en los pasos anteriores. Pero, a diferencia de lo que hicimos antes vamos a utilizar este [código](https://docs.google.com/document/d/1_W5GRhKbrIIv4xWM-8hxDcbmlHckYmIa2u8Q3oenwWc/edit?usp=sharing), el cual es una modificación del que está [página de Cave Pearl Project](https://thecavepearlproject.org/2015/12/22/arduino-uno-based-data-logger-with-no-soldering/). Lo que lograremos con esto será registrar valores ambientales, que se registren en la memoria y que el registrador entre en fase de dormición hasta la próxima lectura.
 
 
 ===================================================================================
 
 
 
-# EcoSen - Data-Loggers and sensors for environmental quality (Español abajo)
+# EcoSen - Data-Loggers and sensors for environmental quality
 Environmental monitoring is essential due to the variety of ways in which it is threatened.
 Usually recording environmental variables can be carried out by private data loggers. These devices, due to their high costs, or being of closed design, do not allow us to buy in quantity or build them.
 Our proposal consists in the design and development of open hardware data loggers with LoRaWan technology for communication with devices for downloading data. The data loggers will be of two types: aquatic and terrestrial. Aquatics will measure relevant data for the determination of water quality such as turbidity, dissolved oxygen, conductivity and pH. The terrestrial, will measure bee activity variables in hive, biological indicators of environmental quality.
