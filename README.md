@@ -24,7 +24,8 @@ Vamos a usar una placa arduino para registrar unos valores del ambiente. Con est
 
 
 ### Procedimiento
-* Instalamos Arduino IDE en nuestra pc -> [link](https://www.arduino.cc/en/software)
+* Instalamos Arduino IDE en nuestra pc -> [link](https://www.arduino.cc/en/software). Abrimos el software.
+* Conectamos la placa a la pc, nos fijamos que puerto se nos habilita en el menú Herramientas/Puerto y lo seleccionamos. Abrimos el ejemplo blink, que se ubica en Archivo/Ejemplo/01.Basics. Subimos el código con la flecha a la derecha en la parte superior de la consola. Por último, vemos de cambiar el tiempo en el que se mantiene prendido y/o apagado el LED cambiando el número que hay dentro de cada uno de los delay que hay en el código. El primero lo cambiamos a 500 y el segundo a 2000. Volvemos a subir el código y chequeamos que la luz se mantenga apagada menos tiempo que prendida.  
 * Armamos el circuito y probamos el código que surge del proyecto del repositorio de arduino sobre el uso del DHT11 -> [link](https://create.arduino.cc/projecthub/techno_z/dht11-temperature-humidity-sensor-98b03b). El proyecto está en inglés, pero se puede traducir con el traductor de google en el navegador Chrome o con un complemento en mozilla Firefox. De todos modos ¡CUIDADO! el código traducido no se puede copiar y pegar en el arduino IDE ya que no va a funcionar. 
 
 ## Segundo paso, Registremos...
@@ -66,6 +67,9 @@ Ahora lo que vamos a hacer es unir todos los pasos que acabamos de hacer para ar
 
 ### Procedimiento
 Vamos a hacer las mismas conexiones que hicimos en los pasos anteriores. Pero, a diferencia de lo que hicimos antes vamos a utilizar este [código](https://docs.google.com/document/d/1_W5GRhKbrIIv4xWM-8hxDcbmlHckYmIa2u8Q3oenwWc/edit?usp=sharing), el cual es una modificación del que está [página de Cave Pearl Project](https://thecavepearlproject.org/2015/12/22/arduino-uno-based-data-logger-with-no-soldering/). Lo que lograremos con esto será registrar valores ambientales, que se registren en la memoria y que el registrador entre en fase de dormición hasta la próxima lectura.
+
+# Miniaturizando...
+Proximamente veremos como armar un registrador de datos con arduino Pro Mini de 3.3v. La primera dificultad es conectarlo a una PC... acá va un [tutorial del procedimiento](https://naylampmechatronics.com/blog/14_tutorial-como-programar-un-arduino-pro-mini-328.html)
 
 
 ===================================================================================
