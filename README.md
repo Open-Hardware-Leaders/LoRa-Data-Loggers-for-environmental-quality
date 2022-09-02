@@ -38,13 +38,15 @@ Para empezar a registrar vamos a necesitar un nuevo elemento, el módulo SD. Con
 * [Memoria micro SD](https://articulo.mercadolibre.com.ar/MLA-927190694-memoria-micro-sd-2gb-nuevas-sin-blister-originales-100-_JM#position=4&search_layout=stack&type=item&tracking_id=d6d6c54d-7f15-4b18-b0df-8bed206f4609)
 
 ### Procedimiento
-Lo primero que vamos a hacer es ver si el módulo esta funcionando. Para esto vamos a correr [este código](https://drive.google.com/drive/folders/1i-_N2Mcmjy9KtCSTOriky5bILIOYGZ-B?usp=sharing) de prueba del módulo y si lee una tarjeta. Este código fue creado por Limor Fried y modificado por Tom Igoe. El esquema de conexión va a ser el siguiente:
+Lo primero que vamos a hacer es ver si el módulo esta funcionando. Para esto vamos a correr [este código](https://drive.google.com/drive/folders/1Auk2bpi2UsZg1wRcR5S4bSVcaOQSAcNh?usp=sharing) de prueba del módulo y si lee una tarjeta. Este código fue creado por Limor Fried y modificado por Tom Igoe. 
+
+El esquema de conexión va a ser el siguiente:
 * MOSI -> pin 11 on Arduino Uno/Duemilanove/Diecimila
 * MISO -> pin 12 on Arduino Uno/Duemilanove/Diecimila
 * CLK -> pin 13 on Arduino Uno/Duemilanove/Diecimila
 * CS -> pin 10  
 
-Armamos el circuito según la imagen que se ve en el siguiente [link](https://www.luisllamas.es/tarjeta-micro-sd-arduino/) para el módulo micro SD. En la imagen no muestra un cable entrando directamente en cada uno de los orificios de la placa arduino, sino que indica que cada pin del módulo va a el nombre de orificios particulares del arduino. Esto es común en diagramas de conexión y está bueno que nos acostumbremos a esto. Luego en la misma página que estamos viendo vamos a ver una última sección antes de los comentarios que se llama **ESCRITURA DE UN FICHERO (DATALOGGER)**. Copiamos el código y lo pegamos en un nuevo archivo de Arduino.IDE y lo ejecutamos.
+El código cargado necesita de las librerías SD y SPI, pero estas ya vienen instaladas por defecto con el Arduino IDE.
 
 ## Tercer paso, agregando información temporal :clock930:
 Ahora necesitamos tener una marca temporal para cada una de las mediciones que hagamos. Si bien cuando medimos conectados a una computadora tenemos esa información, la idea es tener registradores de datos portátiles.
@@ -58,6 +60,8 @@ Ahora necesitamos tener una marca temporal para cada una de las mediciones que h
 Lo que tenemos que hacer ahora es poner en hora el RTC (Real Time Clock, que significa reloj en tiempo real). Este módulo es el que gracias a la pila cr2032 nos va a indicar la hora del registrador de datos aún cuando nuestra placa microcontroladora se quede sin energía. 
 
 Conexionado:
+![image](https://user-images.githubusercontent.com/58541097/188049010-8401e1f7-a56b-4799-9026-1bc9df3c8201.png)
+_Imagen tomada de Cave Pearl Proyect, sobre como armar un registrador de datos con un Arduino Uno para principiantes_
 
     Pin SCL: al pin A5 de Arduino UNO/nano
     Pin SDA: AL pin A4 de Arduino UNO/nano
