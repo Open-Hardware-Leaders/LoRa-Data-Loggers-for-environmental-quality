@@ -60,7 +60,7 @@ Ahora necesitamos tener una marca temporal para cada una de las mediciones que h
 Lo que tenemos que hacer ahora es poner en hora el RTC (Real Time Clock, que significa reloj en tiempo real). Este módulo es el que gracias a la pila cr2032 nos va a indicar la hora del registrador de datos aún cuando nuestra placa microcontroladora se quede sin energía. 
 
 Conexionado:
-![image](https://user-images.githubusercontent.com/58541097/188049010-8401e1f7-a56b-4799-9026-1bc9df3c8201.png)
+![image](https://user-images.githubusercontent.com/58541097/188049010-8401e1f7-a56b-4799-9026-1bc9df3c8201.png)  
 _Imagen tomada de Cave Pearl Proyect, sobre como armar un registrador de datos con un Arduino Uno para principiantes_
 
     Pin SCL: al pin A5 de Arduino UNO/nano
