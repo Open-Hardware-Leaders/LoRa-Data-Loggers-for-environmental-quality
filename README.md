@@ -43,6 +43,7 @@ Lo primero que vamos a hacer es ver si el módulo esta funcionando. Para esto va
 * MISO -> pin 12 on Arduino Uno/Duemilanove/Diecimila
 * CLK -> pin 13 on Arduino Uno/Duemilanove/Diecimila
 * CS -> pin 10  
+
 Armamos el circuito según la imagen que se ve en el siguiente [link](https://www.luisllamas.es/tarjeta-micro-sd-arduino/) para el módulo micro SD. En la imagen no muestra un cable entrando directamente en cada uno de los orificios de la placa arduino, sino que indica que cada pin del módulo va a el nombre de orificios particulares del arduino. Esto es común en diagramas de conexión y está bueno que nos acostumbremos a esto. Luego en la misma página que estamos viendo vamos a ver una última sección antes de los comentarios que se llama **ESCRITURA DE UN FICHERO (DATALOGGER)**. Copiamos el código y lo pegamos en un nuevo archivo de Arduino.IDE y lo ejecutamos.
 
 ## Tercer paso, agregando información temporal :clock930:
