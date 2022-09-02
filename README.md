@@ -46,7 +46,7 @@ El esquema de conexión va a ser el siguiente:
 * CLK -> pin 13 on Arduino Uno/Duemilanove/Diecimila
 * CS -> pin 10  
 
-El código cargado necesita de las librerías SD y SPI, pero estas ya vienen instaladas por defecto con el Arduino IDE.
+El código cargado necesita de las librerías SD y SPI, pero estas ya vienen instaladas por defecto con el Arduino IDE. Listo podemos checkear que la placa detecta al módulo micro SD y otras características de la tarjeta. Opcionalmente podemos probar el siguiente [código](https://drive.google.com/drive/folders/1CoSecuAWTeewKR29v6g7QjIeroU6Y_bo?usp=sharing) para escribir en la memoria y después chequear en la pc que realmente escriba en esta. Este último código es una modificación de ReadWrite de la biblioteca SD.
 
 ## Tercer paso, agregando información temporal :clock930:
 Ahora necesitamos tener una marca temporal para cada una de las mediciones que hagamos. Si bien cuando medimos conectados a una computadora tenemos esa información, la idea es tener registradores de datos portátiles.
@@ -65,10 +65,11 @@ _Imagen tomada de Cave Pearl Proyect, sobre como armar un registrador de datos c
 
     Pin SCL: al pin A5 de Arduino UNO/nano
     Pin SDA: AL pin A4 de Arduino UNO/nano
+    Pin SQW: al pin 2 de Arduino UNO/nano
     Pin Vcc: A 5V de Arduino
     Pin GND: A masa de Arduino
     
-Para poner en hora el módulo vamos a usar el código que se encuentra en el siguiente [sitio web](https://electronperdido.com/shop/modulos-expansion/relojes/rtc-ds3231/). En caso que este código no nos funcione vamos a utilizar el código de este otro [sitio web](https://soloelectronicos.com/2022/08/08/)
+Para poner en hora el vamos a usar el siguiente [código](https://drive.google.com/drive/folders/1xmDleDZfOQ61mQbiiEyEOe9PkdY9zb3K?usp=sharing). En este código, en la linea 13 ponemos la hora como se encuentra ejemplificado en el comentario de la linea 14 para nuestro fecha y horario actual.
 
 ## Cuarto paso, uniendo todo...
 Ahora lo que vamos a hacer es unir todos los pasos que acabamos de hacer para armar un registrador de datos. El sensor DHT 11 nos va a medir la humedad y la temperatura. Con el módulo micro SD registraremos la información en una memoria SD. Y con el módulo RTC tendremos la marca temporal de las mediciones independientemente de que la placa arduino se quede sin alimentación. 
@@ -77,7 +78,7 @@ Ahora lo que vamos a hacer es unir todos los pasos que acabamos de hacer para ar
 * Todos los que ya tenemos
 
 ### Procedimiento
-Vamos a hacer las mismas conexiones que hicimos en los pasos anteriores. Pero, a diferencia de lo que hicimos antes vamos a utilizar este [código](https://docs.google.com/document/d/1_W5GRhKbrIIv4xWM-8hxDcbmlHckYmIa2u8Q3oenwWc/edit?usp=sharing), el cual es una modificación del que está [página de Cave Pearl Project](https://thecavepearlproject.org/2015/12/22/arduino-uno-based-data-logger-with-no-soldering/). Lo que lograremos con esto será registrar valores ambientales, que se registren en la memoria y que el registrador entre en fase de dormición hasta la próxima lectura.
+Vamos a hacer las mismas conexiones que hicimos en los pasos anteriores. Esta vez también vamos a necesitar una librería, [Low Power](https://drive.google.com/file/d/1o-YGQhqMeBoLcBzYglsBMXcvMwZ6bN6o/view?usp=sharing), que nos va permitir poner a dormir al registrador de datos para reducir su consumo y así aumentar su autonomía. Ahora, vamos a usar el siguente [código](https://drive.google.com/drive/folders/1gBKL7R--h3a7O_cv_qDV6s0UkdjrKHTQ?usp=sharing), el cual es una modificación del que está [página de Cave Pearl Project](https://thecavepearlproject.org/2015/12/22/arduino-uno-based-data-logger-with-no-soldering/). Lo que lograremos con esto será registrar valores ambientales, que se registren en la memoria y que el registrador entre en fase de dormición hasta la próxima lectura.
 
 # Miniaturizando...
 Proximamente veremos como armar un registrador de datos con arduino Pro Mini de 3.3v. La primera dificultad es conectarlo a una PC... acá va un [tutorial del procedimiento](https://naylampmechatronics.com/blog/14_tutorial-como-programar-un-arduino-pro-mini-328.html)
