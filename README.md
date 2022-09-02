@@ -39,7 +39,13 @@ Para empezar a registrar vamos a necesitar un nuevo elemento, el módulo SD. Con
 
 ### Procedimiento
 Lo primero que vamos a hacer es ver si el módulo esta funcionando. Para esto vamos a correr [este código](https://drive.google.com/drive/folders/1i-_N2Mcmjy9KtCSTOriky5bILIOYGZ-B?usp=sharing) de prueba del módulo y si lee una tarjeta. Este código fue creado por Limor Fried y modificado por Tom Igoe. El esquema de conexión va a ser el siguiente:
- ** MOSI - pin 11 on Arduino Uno/Duemilanove/Diecimila
+    Pin SCL: al pin A5 de Arduino UNO/nano
+    Pin SDA: AL pin A4 de Arduino UNO/nano
+    Pin Vcc: A 5V de Arduino
+    Pin GND: A masa de Arduino
+
+
+** MOSI - pin 11 on Arduino Uno/Duemilanove/Diecimila
  ** MISO - pin 12 on Arduino Uno/Duemilanove/Diecimila
  ** CLK - pin 13 on Arduino Uno/Duemilanove/Diecimila
  ** CS - pin 10
