@@ -3,7 +3,7 @@ El monitoreo ambiental es esencial para el cuidado del ambiente. Particularmente
 Nuestra propuesta consiste en el diseño y desarrollo de registradores de datos (RD) con tecnologías inalámbricas para tener información en tiempo real en cualquier dispositivo conectado a internet. Los RD pueden ser tanto acuáticos como terrestres. Los acuáticos se espera puedan medir información relevante para el cálculo de índices de calidad de agua ([Pesce y Wunderlin, 2000](https://www.sciencedirect.com/science/article/pii/S0043135400000361)), como ser turbidez, oxígeno disuelto, conductividad y pH. El terrestre va a medir aquellas variables relevantes para la calidad del aire o suelo. 
 La base técnica para la construcción de estos registradores es la presente en el increíble proyecto [Cave Pearl Proyect](https://thecavepearlproject.org/), pero adaptandolo a aguas superficiales.
 
-<img src="Images/image_1.jpg" width="100%">
+<img src="Images/image_1.jpg" width="100%"> 
 
 ### Descargo de responsabilidad
 Este proyecto se encuentra en gestación por lo que vamos a ver es su evolución. Aún no hemos logrado un perfecto funcionamiento de lo propuesto ni con todo tipo de sensores ni con la conectividad inalámbrica, así que cualquier persona que se quiera sumar es bienvenida. Puedes comuncarte con alejo.bonifacio@unc.edu.ar
