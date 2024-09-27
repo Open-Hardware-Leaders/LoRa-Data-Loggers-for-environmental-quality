@@ -80,6 +80,9 @@ Ahora lo que vamos a hacer es unir todos los pasos que acabamos de hacer para ar
 ### Procedimiento
 Vamos a hacer las mismas conexiones que hicimos en los pasos anteriores. Esta vez también vamos a necesitar una librería, [Low Power](https://drive.google.com/file/d/1o-YGQhqMeBoLcBzYglsBMXcvMwZ6bN6o/view?usp=sharing), que nos va permitir poner a dormir al registrador de datos para reducir su consumo y así aumentar su autonomía. Para este código vamos a usar la biblioteca [RTClib vieja](https://drive.google.com/file/d/1o-YGQhqMeBoLcBzYglsBMXcvMwZ6bN6o/view?usp=sharing) Ahora, vamos a usar el siguente [código](https://drive.google.com/drive/folders/1gBKL7R--h3a7O_cv_qDV6s0UkdjrKHTQ?usp=sharing), el cual es una modificación del que está [página de Cave Pearl Project](https://thecavepearlproject.org/2015/12/22/arduino-uno-based-data-logger-with-no-soldering/). Lo que lograremos con esto será registrar valores ambientales, que se registren en la memoria y que el registrador entre en fase de dormición hasta la próxima lectura.
 
+## Quinto paso, autonomizando...
+Vamos a ver las diferentes formas de alimentar nuestro Registrador de Datos Ambientales Abierto (RDAA) con varias fuentes de alimentación.
+
 # Miniaturizando...
 Proximamente veremos como armar un registrador de datos con arduino Pro Mini de 3.3v. La primera dificultad es conectarlo a una PC... acá va un [tutorial del procedimiento](https://naylampmechatronics.com/blog/14_tutorial-como-programar-un-arduino-pro-mini-328.html)
 
